@@ -2,4 +2,4 @@
 source_root_dir = '/home/robot-5/ah_proj_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/opt/ros/melodic'.split(';') if '/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/robot-5/ah_proj_ws/devel;/opt/ros/melodic'.split(';') if '/home/robot-5/ah_proj_ws/devel;/opt/ros/melodic' != '' else []

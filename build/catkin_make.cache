@@ -1,2 +1,2 @@
-
+rplidar_ros
 -DCATKIN_DEVEL_PREFIX=/home/robot-5/ah_proj_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robot-5/ah_proj_ws/install -G Unix Makefiles

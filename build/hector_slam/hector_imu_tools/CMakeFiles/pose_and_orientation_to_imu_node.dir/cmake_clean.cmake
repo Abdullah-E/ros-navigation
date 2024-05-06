@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pose_and_orientation_to_imu_node.dir/src/pose_and_orientation_to_imu_node.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
+  "/home/root1234/ros-navigation/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
+  "/home/root1234/ros-navigation/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
 )
 
 # Per-language clean rules from dependency scanning.

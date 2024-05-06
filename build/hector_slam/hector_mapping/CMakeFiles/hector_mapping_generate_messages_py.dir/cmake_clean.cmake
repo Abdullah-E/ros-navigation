@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_py"
-  "/home/robot-5/ah_proj_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
-  "/home/robot-5/ah_proj_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
-  "/home/robot-5/ah_proj_ws/devel/lib/python2.7/dist-packages/hector_mapping/srv/_ResetMapping.py"
-  "/home/robot-5/ah_proj_ws/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
-  "/home/robot-5/ah_proj_ws/devel/lib/python2.7/dist-packages/hector_mapping/srv/__init__.py"
+  "/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
+  "/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
+  "/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages/hector_mapping/srv/_ResetMapping.py"
+  "/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
+  "/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages/hector_mapping/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

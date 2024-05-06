@@ -1,8 +1,8 @@
-prefix=/home/robot-5/ah_proj_ws/devel
+prefix=/home/root1234/ros-navigation/devel
 
 Name: hector_mapping
 Description: Description of hector_mapping
 Version: 0.5.2
-Cflags: -I/home/robot-5/ah_proj_ws/devel/include -I/home/robot-5/ah_proj_ws/src/hector_slam/hector_mapping/include -I/usr/include/eigen3
+Cflags: -I/home/root1234/ros-navigation/devel/include -I/home/root1234/ros-navigation/src/hector_slam/hector_mapping/include -I/usr/include/eigen3
 Libs: -L${prefix}/lib 
 Requires: roscpp nav_msgs visualization_msgs tf message_filters laser_geometry message_runtime

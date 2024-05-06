@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rplidar_ros"
-PROJECT_SPACE_DIR = "/home/robot-5/ah_proj_ws/install"
+PROJECT_SPACE_DIR = "/home/root1234/ros-navigation/install"
 PROJECT_VERSION = "2.1.5"

@@ -1,4 +1,4 @@
-prefix=/home/robot-5/ah_proj_ws/install
+prefix=/home/root1234/ros-navigation/install
 
 Name: hector_geotiff
 Description: Description of hector_geotiff

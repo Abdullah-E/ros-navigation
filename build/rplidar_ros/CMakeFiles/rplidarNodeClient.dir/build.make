@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-5/ah_proj_ws/src
+CMAKE_SOURCE_DIR = /home/root1234/ros-navigation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-5/ah_proj_ws/build
+CMAKE_BINARY_DIR = /home/root1234/ros-navigation/build
 
 # Include any dependencies generated for this target.
 include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend.make
@@ -58,17 +58,17 @@ include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/progress.make
 include rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/flags.make
-rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/robot-5/ah_proj_ws/src/rplidar_ros/src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot-5/ah_proj_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
-	cd /home/robot-5/ah_proj_ws/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/robot-5/ah_proj_ws/src/rplidar_ros/src/client.cpp
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/root1234/ros-navigation/src/rplidar_ros/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/root1234/ros-navigation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+	cd /home/root1234/ros-navigation/build/rplidar_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/root1234/ros-navigation/src/rplidar_ros/src/client.cpp
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i"
-	cd /home/robot-5/ah_proj_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot-5/ah_proj_ws/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+	cd /home/root1234/ros-navigation/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/root1234/ros-navigation/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s"
-	cd /home/robot-5/ah_proj_ws/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot-5/ah_proj_ws/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+	cd /home/root1234/ros-navigation/build/rplidar_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/root1234/ros-navigation/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o.requires:
 
@@ -88,32 +88,32 @@ rplidarNodeClient_OBJECTS = \
 # External object files for target rplidarNodeClient
 rplidarNodeClient_EXTERNAL_OBJECTS =
 
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_regex.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librostime.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libcpp_common.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_system.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_thread.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot-5/ah_proj_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient"
-	cd /home/robot-5/ah_proj_ws/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_regex.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librostime.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libcpp_common.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_system.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_thread.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libpthread.so
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
+/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/root1234/ros-navigation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient"
+	cd /home/root1234/ros-navigation/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build: /home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNodeClient
+rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build: /home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNodeClient
 
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
 
@@ -122,10 +122,10 @@ rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires: rplidar_ros/CMakeFiles/rp
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/requires
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean:
-	cd /home/robot-5/ah_proj_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
+	cd /home/root1234/ros-navigation/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNodeClient.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/clean
 
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend:
-	cd /home/robot-5/ah_proj_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-5/ah_proj_ws/src /home/robot-5/ah_proj_ws/src/rplidar_ros /home/robot-5/ah_proj_ws/build /home/robot-5/ah_proj_ws/build/rplidar_ros /home/robot-5/ah_proj_ws/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/root1234/ros-navigation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/root1234/ros-navigation/src /home/root1234/ros-navigation/src/rplidar_ros /home/root1234/ros-navigation/build /home/root1234/ros-navigation/build/rplidar_ros /home/root1234/ros-navigation/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/depend
 

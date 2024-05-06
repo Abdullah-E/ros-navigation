@@ -1,8 +1,8 @@
-prefix=/home/robot-5/ah_proj_ws/devel
+prefix=/home/root1234/ros-navigation/devel
 
 Name: hector_nav_msgs
 Description: Description of hector_nav_msgs
 Version: 0.5.2
-Cflags: -I/home/robot-5/ah_proj_ws/devel/include
+Cflags: -I/home/root1234/ros-navigation/devel/include
 Libs: -L${prefix}/lib 
 Requires: nav_msgs geometry_msgs message_runtime std_msgs

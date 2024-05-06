@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-5/ah_proj_ws/src/hector_slam/hector_slam_launch
+# Install script for directory: /home/root1234/ros-navigation/src/hector_slam/hector_slam_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-5/ah_proj_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/root1234/ros-navigation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,24 +38,24 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-5/ah_proj_ws/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/root1234/ros-navigation/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_slam_launch/cmake" TYPE FILE FILES
-    "/home/robot-5/ah_proj_ws/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launchConfig.cmake"
-    "/home/robot-5/ah_proj_ws/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launchConfig-version.cmake"
+    "/home/root1234/ros-navigation/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launchConfig.cmake"
+    "/home/root1234/ros-navigation/build/hector_slam/hector_slam_launch/catkin_generated/installspace/hector_slam_launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_slam_launch" TYPE FILE FILES "/home/robot-5/ah_proj_ws/src/hector_slam/hector_slam_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_slam_launch" TYPE FILE FILES "/home/root1234/ros-navigation/src/hector_slam/hector_slam_launch/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_slam_launch" TYPE DIRECTORY FILES
-    "/home/robot-5/ah_proj_ws/src/hector_slam/hector_slam_launch/launch"
-    "/home/robot-5/ah_proj_ws/src/hector_slam/hector_slam_launch/rviz_cfg"
+    "/home/root1234/ros-navigation/src/hector_slam/hector_slam_launch/launch"
+    "/home/root1234/ros-navigation/src/hector_slam/hector_slam_launch/rviz_cfg"
     )
 endif()
 

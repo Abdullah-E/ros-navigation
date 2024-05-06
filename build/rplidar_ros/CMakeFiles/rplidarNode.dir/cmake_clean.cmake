@@ -16,8 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/rplidar_ros/rplidarNode"
+  "/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/root1234/ros-navigation/devel/lib/rplidar_ros/rplidarNode"
 )
 
 # Per-language clean rules from dependency scanning.

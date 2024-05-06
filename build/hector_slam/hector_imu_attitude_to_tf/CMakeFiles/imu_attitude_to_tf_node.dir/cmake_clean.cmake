@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/imu_attitude_to_tf_node.dir/src/imu_attitude_to_tf_node.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node"
+  "/home/root1234/ros-navigation/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node.pdb"
+  "/home/root1234/ros-navigation/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node"
 )
 
 # Per-language clean rules from dependency scanning.

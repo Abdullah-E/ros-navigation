@@ -1,4 +1,4 @@
-prefix=/home/robot-5/ah_proj_ws/devel
+prefix=/home/root1234/ros-navigation/devel
 
 Name: hector_imu_tools
 Description: Description of hector_imu_tools

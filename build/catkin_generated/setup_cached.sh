@@ -7,9 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/robot-5/ah_proj_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/robot-5/ah_proj_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/robot-5/ah_proj_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/robot-5/ah_proj_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/robot-5/ah_proj_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/robot-5/ah_proj_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/root1234/ros-navigation/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/root1234/ros-navigation/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/root1234/ros-navigation/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/root1234/ros-navigation/build'
+export PYTHONPATH="/home/root1234/ros-navigation/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/root1234/ros-navigation/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/root1234/ros-navigation/src:$ROS_PACKAGE_PATH"

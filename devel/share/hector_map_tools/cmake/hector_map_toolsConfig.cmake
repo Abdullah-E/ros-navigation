@@ -67,14 +67,14 @@ set(hector_map_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(hector_map_tools_SOURCE_PREFIX /home/robot-5/ah_proj_ws/src/hector_slam/hector_map_tools)
-  set(hector_map_tools_DEVEL_PREFIX /home/robot-5/ah_proj_ws/devel)
+  set(hector_map_tools_SOURCE_PREFIX /home/root1234/ros-navigation/src/hector_slam/hector_map_tools)
+  set(hector_map_tools_DEVEL_PREFIX /home/root1234/ros-navigation/devel)
   set(hector_map_tools_INSTALL_PREFIX "")
   set(hector_map_tools_PREFIX ${hector_map_tools_DEVEL_PREFIX})
 else()
   set(hector_map_tools_SOURCE_PREFIX "")
   set(hector_map_tools_DEVEL_PREFIX "")
-  set(hector_map_tools_INSTALL_PREFIX /home/robot-5/ah_proj_ws/install)
+  set(hector_map_tools_INSTALL_PREFIX /home/root1234/ros-navigation/install)
   set(hector_map_tools_PREFIX ${hector_map_tools_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(hector_map_tools_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/robot-5/ah_proj_ws/src/hector_slam/hector_map_tools/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/root1234/ros-navigation/src/hector_slam/hector_map_tools/include;/usr/include/eigen3 " STREQUAL " ")
   set(hector_map_tools_INCLUDE_DIRS "")
-  set(_include_dirs "/home/robot-5/ah_proj_ws/src/hector_slam/hector_map_tools/include;/usr/include/eigen3")
+  set(_include_dirs "/home/root1234/ros-navigation/src/hector_slam/hector_map_tools/include;/usr/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/hector_map_tools " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/robot-5/ah_proj_ws/src/hector_slam/hector_map_tools/include;/usr/i
         message(FATAL_ERROR "Project 'hector_map_tools' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hector_map_tools' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robot-5/ah_proj_ws/src/hector_slam/hector_map_tools/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hector_map_tools' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/root1234/ros-navigation/src/hector_slam/hector_map_tools/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hector_map_tools_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robot-5/ah_proj_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/root1234/ros-navigation/devel/lib;/home/root1234/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_geotiff/geotiff_saver.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_geotiff/geotiff_saver"
+  "/home/root1234/ros-navigation/devel/lib/hector_geotiff/geotiff_saver.pdb"
+  "/home/root1234/ros-navigation/devel/lib/hector_geotiff/geotiff_saver"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_nav_msgs_generate_messages_lisp"
-  "/home/robot-5/ah_proj_ws/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp"
-  "/home/robot-5/ah_proj_ws/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp"
-  "/home/robot-5/ah_proj_ws/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp"
-  "/home/robot-5/ah_proj_ws/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp"
-  "/home/robot-5/ah_proj_ws/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp"
+  "/home/root1234/ros-navigation/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp"
+  "/home/root1234/ros-navigation/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp"
+  "/home/root1234/ros-navigation/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp"
+  "/home/root1234/ros-navigation/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp"
+  "/home/root1234/ros-navigation/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

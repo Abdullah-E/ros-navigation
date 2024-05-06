@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot-5/ah_proj_ws/src/hector_slam/hector_imu_attitude_to_tf
-# Build directory: /home/robot-5/ah_proj_ws/build/hector_slam/hector_imu_attitude_to_tf
+# Source directory: /home/root1234/ros-navigation/src/hector_slam/hector_imu_attitude_to_tf
+# Build directory: /home/root1234/ros-navigation/build/hector_slam/hector_imu_attitude_to_tf
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

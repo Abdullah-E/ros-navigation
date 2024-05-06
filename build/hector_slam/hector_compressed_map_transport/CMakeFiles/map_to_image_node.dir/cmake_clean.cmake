@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_to_image_node.dir/src/map_to_image_node.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_compressed_map_transport/map_to_image_node.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_compressed_map_transport/map_to_image_node"
+  "/home/root1234/ros-navigation/devel/lib/hector_compressed_map_transport/map_to_image_node.pdb"
+  "/home/root1234/ros-navigation/devel/lib/hector_compressed_map_transport/map_to_image_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_node.dir/src/geotiff_node.cpp.o"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_geotiff/geotiff_node.pdb"
-  "/home/robot-5/ah_proj_ws/devel/lib/hector_geotiff/geotiff_node"
+  "/home/root1234/ros-navigation/devel/lib/hector_geotiff/geotiff_node.pdb"
+  "/home/root1234/ros-navigation/devel/lib/hector_geotiff/geotiff_node"
 )
 
 # Per-language clean rules from dependency scanning.

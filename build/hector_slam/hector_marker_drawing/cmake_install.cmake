@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-5/ah_proj_ws/src/hector_slam/hector_marker_drawing
+# Install script for directory: /home/root1234/ros-navigation/src/hector_slam/hector_marker_drawing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-5/ah_proj_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/root1234/ros-navigation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-5/ah_proj_ws/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawing.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/root1234/ros-navigation/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawing.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_marker_drawing/cmake" TYPE FILE FILES
-    "/home/robot-5/ah_proj_ws/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawingConfig.cmake"
-    "/home/robot-5/ah_proj_ws/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawingConfig-version.cmake"
+    "/home/root1234/ros-navigation/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawingConfig.cmake"
+    "/home/root1234/ros-navigation/build/hector_slam/hector_marker_drawing/catkin_generated/installspace/hector_marker_drawingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_marker_drawing" TYPE FILE FILES "/home/robot-5/ah_proj_ws/src/hector_slam/hector_marker_drawing/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_marker_drawing" TYPE FILE FILES "/home/root1234/ros-navigation/src/hector_slam/hector_marker_drawing/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_marker_drawing" TYPE DIRECTORY FILES "/home/robot-5/ah_proj_ws/src/hector_slam/hector_marker_drawing/include/hector_marker_drawing/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hector_marker_drawing" TYPE DIRECTORY FILES "/home/root1234/ros-navigation/src/hector_slam/hector_marker_drawing/include/hector_marker_drawing/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

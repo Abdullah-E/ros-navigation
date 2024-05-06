@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot-5/ah_proj_ws/src
-# Build directory: /home/robot-5/ah_proj_ws/build
+# Source directory: /home/root1234/ros-navigation/src
+# Build directory: /home/root1234/ros-navigation/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -13,6 +13,7 @@ subdirs("hector_slam/hector_nav_msgs")
 subdirs("hector_slam/hector_geotiff")
 subdirs("hector_slam/hector_geotiff_plugins")
 subdirs("hector_slam/hector_marker_drawing")
+subdirs("odom_pub")
 subdirs("hector_slam/hector_compressed_map_transport")
 subdirs("rplidar_ros")
 subdirs("hector_slam/hector_imu_attitude_to_tf")

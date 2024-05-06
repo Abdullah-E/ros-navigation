@@ -67,14 +67,14 @@ set(hector_slam_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hector_slam_launch_SOURCE_PREFIX /home/robot-5/ah_proj_ws/src/hector_slam/hector_slam_launch)
-  set(hector_slam_launch_DEVEL_PREFIX /home/robot-5/ah_proj_ws/devel)
+  set(hector_slam_launch_SOURCE_PREFIX /home/root1234/ros-navigation/src/hector_slam/hector_slam_launch)
+  set(hector_slam_launch_DEVEL_PREFIX /home/root1234/ros-navigation/devel)
   set(hector_slam_launch_INSTALL_PREFIX "")
   set(hector_slam_launch_PREFIX ${hector_slam_launch_DEVEL_PREFIX})
 else()
   set(hector_slam_launch_SOURCE_PREFIX "")
   set(hector_slam_launch_DEVEL_PREFIX "")
-  set(hector_slam_launch_INSTALL_PREFIX /home/robot-5/ah_proj_ws/install)
+  set(hector_slam_launch_INSTALL_PREFIX /home/root1234/ros-navigation/install)
   set(hector_slam_launch_PREFIX ${hector_slam_launch_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robot-5/ah_proj_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/root1234/ros-navigation/install/lib;/home/root1234/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

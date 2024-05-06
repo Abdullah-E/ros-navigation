@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_eus"
-  "/home/robot-5/ah_proj_ws/devel/share/roseus/ros/hector_mapping/msg/HectorIterData.l"
-  "/home/robot-5/ah_proj_ws/devel/share/roseus/ros/hector_mapping/msg/HectorDebugInfo.l"
-  "/home/robot-5/ah_proj_ws/devel/share/roseus/ros/hector_mapping/srv/ResetMapping.l"
-  "/home/robot-5/ah_proj_ws/devel/share/roseus/ros/hector_mapping/manifest.l"
+  "/home/root1234/ros-navigation/devel/share/roseus/ros/hector_mapping/msg/HectorDebugInfo.l"
+  "/home/root1234/ros-navigation/devel/share/roseus/ros/hector_mapping/msg/HectorIterData.l"
+  "/home/root1234/ros-navigation/devel/share/roseus/ros/hector_mapping/srv/ResetMapping.l"
+  "/home/root1234/ros-navigation/devel/share/roseus/ros/hector_mapping/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

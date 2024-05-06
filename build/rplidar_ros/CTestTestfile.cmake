@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot-5/ah_proj_ws/src/rplidar_ros
-# Build directory: /home/robot-5/ah_proj_ws/build/rplidar_ros
+# Source directory: /home/root1234/ros-navigation/src/rplidar_ros
+# Build directory: /home/root1234/ros-navigation/build/rplidar_ros
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
